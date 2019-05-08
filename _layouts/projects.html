@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="m-3">
+  <div class="jumbotron bg-secondary shadow-sm">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.subtitle }}</p>
+  </div>
+
+  <div class="card shadow-lg m-3">
+    <div class="card-body">{{ content }}</div>
+  </div>
+
+  <div class="card-deck m-3">
+    {% for project in site.categories.projects %}
+    <div class="card shadow">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal{{ project.title }}">
+        <img src="{{ site.baseurl }}/images/projects/{{ project.image }}" class="card-img-top p-2"></img>
+      </button>
+
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal{{ project.title }}">
+        <div class="modal-dialog" style="display: table;">
+          <div class="modal-content">
+            <!-- Modal body -->
+            <div class="modal-body">
+              <img src="{{ site.baseurl }}/images/projects/{{ project.image }}"></img>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-header">
+        <h3 class="card-title card-link"><a href="{{ site.baseurl }}/{{ project.url }}">{{ project.title }}</a></h3>
+        <p class="card-text">{{ project.start_date }}</p>
+      </div>
+      <div class="card-body">
+        <p class="card-text">{{ project.description }}</p>
+        <p class="card-text"><button type="button" class="btn btn-info btn-sm"><a href="{{ site.baseurl }}{{ project.url }}" class="card-link">View</a></button></p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

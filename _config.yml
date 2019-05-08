@@ -1,0 +1,42 @@
+name: Brandon
+description: Just some random guy doing random stuff.
+author: Brandon Whitehead
+logo: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+github: https://github.com/TricksterGuy
+
+contact:
+  email: bwhitehead0308@gmail.com
+  facebook: brandon.whitehead.96
+  github: TricksterGuy
+  rss: rss # just type anything here for a working RSS icon
+  stackoverflow: users/8146747/brandon
+  youtube: # channel/<your_long_string> or user/<user-name>
+  twitter: trix_and_hax
+  steam: tricksterguy87
+
+disqus_shortname: tricksterguy87
+google_analytics: UA-138494611-1
+
+url: http://tricksterguy.github.io
+baseurl: ""
+
+tag_array: []
+
+paginate: 10
+per_page: 10
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-gist
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

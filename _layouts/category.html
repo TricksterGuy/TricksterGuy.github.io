@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<div>
+  <div class="card shadow-lg">
+    <div class="card-header">
+      <h1>Articles by category: <em class="text-muted">{{ page.title }}</em></h1>
+    </div>
+    <div class="card-body">
+      <div class="d-flex flex-wrap">
+        {%- for category in site.categories -%}
+        <div>
+          {%- if category[0] == page.category -%}
+          <button class="btn btn-sm btn-primary btn-raised m-3" style="width:100px;">{{ category[0] }}</button>
+          {%- else -%}
+          <a href="{{ site.baseurl }}/category/{{ category[0] }}" class="btn btn-sm btn-default btn-raised m-3" style="width:100px;">{{ category[0] }}</a>
+          {%- endif -%}
+        </div>
+        {%- endfor -%}
+      </div>
+      <hr/>
+      {%- if site.categories[page.category] -%}
+      <div>
+        {%- for post in site.categories[page.category] -%}
+        <div class="d-flex p-3">
+          <div class="d-flex flex-column post-info-icon-card">
+            <i class="{{ post.icon }}"></i>
+          </div>
+          <div class="card shadow-lg flex-grow-1">
+            <div class="card-header">
+              <h4 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}" class="card-link">{{ post.title }}</a></h4>
+              {%- unless page.no_dates -%}<h6><i class="far fa-clock"></i> {{ post.date | date_to_string }}</h6>{%- endunless -%}
+            </div>
+            <div class="card-body">
+              <p class="card-text">{{ post.description }}</p>
+            </div>
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+      {%- else -%}
+      <p>There are no posts in this category!</p>
+      {%- endif -%}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Home",
+    "url": "/",
+    "icon": "fas fa-home",
+  },
+  {
+    "text": "Projects",
+    "url": "/projects",
+    "icon": "fas fa-desktop"
+  },
+  {
+    "text": "Resume",
+    "url": "/#",
+    "icon": "fas fa-graduation-cap",
+  },
+  {
+    "text": "About",
+    "url": "/about",
+    "icon": "fas fa-comments"
+  },
+]
