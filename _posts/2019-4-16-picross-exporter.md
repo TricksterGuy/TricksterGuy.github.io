@@ -3,7 +3,7 @@ layout: post
 title: "Picross Exporter"
 description: Turn images into harder, more elaborate picross puzzles.
 icon: fas fa-puzzle-piece
-image: picross-exporter.png
+project_image: picross-exporter.png
 start_date: "Mar 2014"
 hidden: true
 permalink: projects/picross-exporter

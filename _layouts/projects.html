@@ -16,7 +16,7 @@ layout: default
     {% for project in site.categories.projects %}
     <div class="card shadow">
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal{{ project.title }}">
-        <img src="{{ site.baseurl }}/images/projects/{{ project.image }}" class="card-img-top p-2"></img>
+        <img src="{{ site.baseurl }}/images/projects/{{ project.project_image }}" class="card-img-top p-2"></img>
       </button>
 
       <!-- The Modal -->
@@ -25,7 +25,7 @@ layout: default
           <div class="modal-content">
             <!-- Modal body -->
             <div class="modal-body">
-              <img src="{{ site.baseurl }}/images/projects/{{ project.image }}"></img>
+              <img src="{{ site.baseurl }}/images/projects/{{ project.project_image }}"></img>
             </div>
           </div>
         </div>

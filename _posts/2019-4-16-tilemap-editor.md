@@ -3,7 +3,7 @@ layout: post
 title: "Tilemap Editor"
 description: Longest running project, needs a better name... meh.
 icon: fas fa-map
-image: tilemap-editor.png
+project_image: tilemap-editor.png
 start_date: "Sept 2009"
 hidden: true
 permalink: projects/tilemap-editor
