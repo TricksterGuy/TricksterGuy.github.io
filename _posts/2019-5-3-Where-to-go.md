@@ -3,6 +3,7 @@ layout: post
 title: Where to go?
 description: The only direction is up!
 icon: fas fa-directions
+last_updated: 2019-05-08 1:30:00 -0800
 categories: status
 ---
 
@@ -70,7 +71,9 @@ I really want to start over with the code for the blog and make it *truly* somet
 Eventually with the defaults I'll want to tinker around with it and then I get annoyed with the template.
 
 So this is now a weekend project to clean things up. I have been making small changes over the past few days, so check everyday you may find something different.
-So yeah you may not see new posts for some time, but you may see the layout and things change
+So yeah you may not see new posts for some time, but you may see the layout and things change.
+
+**EDIT 5/8/2019 We now live boys. Bootstrap 4 site. Lost search and related posts functionality which I will readd on a later day.**
 
 [Meta](/meta) documents every single change. I want people to learn from my developments.
 
@@ -92,3 +95,5 @@ So yeah if you are reading this as of 5/4/2019 you are probably in category 4.
 
 I should really make posts more interactive and get people to comment more, so I at least don't think I'm sending stuff off to the void.
 I believe I set things up to where you don't need to sign in with disqus to comment nor comments will be moderated (unless you link something).
+
+**EDIT 5/8/2019 Only shown this to one more person, maybe my manager today as well. So much for goals...**
