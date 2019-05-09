@@ -17,17 +17,17 @@ layout: default
   <div class="card-deck m-3">
     {% for project in site.categories.projects %}
     <div class="card shadow">
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal{{ project.title | replace: " ", "_" }}">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal{{ project.title | replace: ' ', '_' }}">
         <img src="{{ site.baseurl }}/images/projects/{{ project.project_image }}" class="card-img-top p-2" alt="{{ project.title }}">
       </button>
 
       <!-- The Modal -->
-      <div class="modal fade" id="myModal{{ project.title | replace: " ", "_" }}">
+      <div class="modal fade" id="myModal{{ project.title | replace: ' ', '_' }}">
         <div class="modal-dialog" style="display: table;">
           <div class="modal-content">
             <!-- Modal body -->
             <div class="modal-body">
-              <img src="{{ site.baseurl }}/images/projects/{{ project.project_image }}"></img>
+              <img src="{{ site.baseurl }}/images/projects/{{ project.project_image }}" alt="{{ project.title }}">
             </div>
           </div>
         </div>
