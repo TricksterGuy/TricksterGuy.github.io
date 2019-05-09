@@ -1,6 +1,6 @@
   <figure style="{{ include.style }}">
     <a href="{{ include.img }}">
-      <img class="figure-image img-fluid img-thumbnail" src="{{ include.img }}" style="max-width: {{ include.max-width }};" alt="{{ include.alt }}"/>
+      <img class="figure-image img-fluid img-thumbnail" src="{{ include.img }}" {%- if include.max-width -%} style="max-width: {{ include.max-width }};" {%- endif -%} alt="{{ include.alt }}"/>
     </a>
     <figcaption>
       {{ include.caption }}
