@@ -17,12 +17,12 @@ layout: default
   <div class="card-deck m-3">
     {% for project in site.categories.projects %}
     <div class="card shadow">
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal{{ project.title }}">
-        <img src="{{ site.baseurl }}/images/projects/{{ project.project_image }}" class="card-img-top p-2"></img>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal{{ project.title | replace: " ", "_" }}">
+        <img src="{{ site.baseurl }}/images/projects/{{ project.project_image }}" class="card-img-top p-2" alt="{{ project.title }}">
       </button>
 
       <!-- The Modal -->
-      <div class="modal fade" id="myModal{{ project.title }}">
+      <div class="modal fade" id="myModal{{ project.title | replace: " ", "_" }}">
         <div class="modal-dialog" style="display: table;">
           <div class="modal-content">
             <!-- Modal body -->
@@ -39,7 +39,7 @@ layout: default
       </div>
       <div class="card-body">
         <p class="card-text">{{ project.description }}</p>
-        <p class="card-text"><button type="button" class="btn btn-info btn-sm"><a href="{{ site.baseurl }}{{ project.url }}" class="card-link">View</a></button></p>
+        <a href="{{ site.baseurl }}{{ project.url }}" class="card-link btn btn-info btn-sm bg-secondary rounded-lg" role="button">View</a>
       </div>
     </div>
     {% endfor %}
