@@ -15,8 +15,8 @@ title: Blog
         <p class="card-text"><i class="far fa-clock"></i> {{ post.date | date_to_string }}{%- if post.last_updated -%}&emsp;<i class="fas fa-edit"></i> {{ post.last_updated | date_to_string }}{%- endif -%}</p>
       </div>
       <div class="card-body pb-1 pt-0">
-        <p class="card-text">{{ post.excerpt }}</p>
-        <p class="card-text"><button type="button" class="btn btn-info btn-sm"><a href="{{ site.baseurl }}{{ post.url }}" class="card-link">Read More...</a></button></p>
+        <p class="card-text mt-1">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip }}</p>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="card-link btn btn-info btn-sm bg-secondary rounded-lg" role="button">Read More...</a>
       </div>
       <div class="card-footer">
         <p class="card-link"><a href="{{ post.url | prepend: site.url }}#disqus_thread" data-disqus-identifier="{{post.id}}"></a></p>
