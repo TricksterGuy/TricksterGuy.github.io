@@ -20,10 +20,10 @@ layout: default
 
   <div class="d-flex">
     {%- if page.previous.url and page.enable_previous != false -%}
-      <a class="mr-auto btn btn-info btn-sm" href="{{ site.baseurl }}{{ page.previous.url }}" role="button">&laquo; {{ page.previous.title }}</a>
+      <a class="mr-auto btn btn-sm btn-default btn-raised rounded-lg" href="{{ site.baseurl }}{{ page.previous.url }}" role="button">&laquo; {{ page.previous.title }}</a>
     {%- endif -%}
     {%- if page.next.url and page.enable_next != false -%}
-      <a class="ml-auto btn btn-info btn-sm" href="{{ site.baseurl }}{{ page.next.url }}" role="button">{{ page.next.title }} &raquo;</a>
+      <a class="ml-auto btn btn-sm btn-default btn-raised rounded-lg" href="{{ site.baseurl }}{{ page.next.url }}" role="button">{{ page.next.title }} &raquo;</a>
     {%- endif -%}
   </div>
   <hr/>

@@ -16,7 +16,7 @@ title: Blog
       </div>
       <div class="card-body pb-1 pt-0">
         <p class="card-text mt-1">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip }}</p>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="card-link btn btn-info btn-sm bg-secondary rounded-lg" role="button">Read More...</a>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="card-link btn btn-sm btn-default btn-raised rounded-lg" role="button">Read More...</a>
       </div>
       <div class="card-footer">
         <p class="card-link"><a href="{{ post.url | prepend: site.url }}#disqus_thread" data-disqus-identifier="{{post.id}}"></a></p>

@@ -17,7 +17,7 @@ layout: default
   <div class="card-deck m-3">
     {% for project in site.categories.projects %}
     <div class="card shadow">
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal{{ project.title | replace: ' ', '_' }}">
+      <button type="button" class="btn btn-sm btn-default btn-raised rounded-lg" data-toggle="modal" data-target="#myModal{{ project.title | replace: ' ', '_' }}">
         <img src="{{ site.baseurl }}/images/projects/{{ project.project_image }}" class="card-img-top p-2" alt="{{ project.title }}">
       </button>
 
@@ -39,7 +39,7 @@ layout: default
       </div>
       <div class="card-body">
         <p class="card-text">{{ project.description }}</p>
-        <a href="{{ site.baseurl }}{{ project.url }}" class="card-link btn btn-info btn-sm bg-secondary rounded-lg" role="button">View</a>
+        <a href="{{ site.baseurl }}{{ project.url }}" class="card-link btn btn-sm btn-default btn-raised rounded-lg" role="button">View</a>
       </div>
     </div>
     {% endfor %}

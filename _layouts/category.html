@@ -10,10 +10,11 @@ layout: default
       <div class="d-flex flex-wrap">
         {%- for category in site.categories -%}
         <div>
+          <!-- Note that site.categories is a hash so category[0] is the category -->
           {%- if category[0] == page.category -%}
-          <button class="btn btn-sm btn-primary btn-raised m-3" style="width:100px;">{{ category[0] }}</button>
+          <button class="btn btn-sm btn-primary btn-raised rounded-lg m-3" style="width:100px;">{{ category[0] }}</button>
           {%- else -%}
-          <a href="{{ site.baseurl }}/category/{{ category[0] }}" class="btn btn-sm btn-default btn-raised m-3" style="width:100px;">{{ category[0] }}</a>
+          <a href="{{ site.baseurl }}/category/{{ category[0] }}" class="btn btn-sm btn-default btn-raised rounded-lg m-3" style="width:100px;">{{ category[0] }}</a>
           {%- endif -%}
         </div>
         {%- endfor -%}
