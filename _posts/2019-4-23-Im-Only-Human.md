@@ -65,6 +65,7 @@ Prices seem decent (IDK) and a good way to meet new people.
 | 5                  | $120        | $24             |
 | 10                 | $220        | $22             |
 | 20                 | $360        | $18             |
+{: .table .table-responsive}
 
 They also offer a month to month subscription of $120 and a yearly subscription of $1200. Doing 7+ classes with the month subscription is when it starts getting that bang for buck, and yearly you'd have to do 67+ classes.
 But if I do time based subscription I know for sure I wouldn't utilize it as much. Just the thought of not getting the full value with the number of classes subscription is enough of a motivator to make me rush in.
@@ -76,6 +77,7 @@ I'm just thinking of doing maybe 1 more session a week, but there's a catch, of 
 | 5                 | 31 days   |
 | 10                | 50 days   |
 | 20                | 75 days   |
+{: .table .table-responsive}
 
 And that's how they get ya! Dang it Will! 75 days to come in 20 times along with the one free weekly session the apartment offers for free. Given that I still *feel* the Tuesday session come Thursday/Friday that's probably going to be a tall order for me.
 

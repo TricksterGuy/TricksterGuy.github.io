@@ -2,9 +2,11 @@
 layout: default
 ---
 <div>
-  <div class="jumbotron bg-secondary shadow-sm">
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.subtitle }}</p>
+  <div class="card my-3 shadow-sm">
+    <div class="jumbotron bg-transparent">
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.subtitle }}</p>
+    </div>
   </div>
   <div class="card shadow-lg">
     <div class="card-body">{{ content }}</div>
