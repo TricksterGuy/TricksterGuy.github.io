@@ -2,9 +2,12 @@
 layout: default
 title: Blog
 ---
-{%- for post in paginator.posts -%}
+{%- if paginator.page == 1 -%}
+<div class="py-3">
+<b>Pinned Posts</b>
+{%- for post in site.categories.pinned -%}
 <article class="post">
-  <div class="d-flex py-3">
+  <div class="d-flex p-3">
     <div class="d-flex flex-column post-info-icon-card">
       <i class="{{ post.icon }}"></i>
       {%- assign category = post.categories.first -%}
@@ -28,6 +31,39 @@ title: Blog
   </div>
 </article>
 {%- endfor -%}
+</div>
+{%- endif -%}
+
+<hr/>
+
+<div class="py-3">
+{%- for post in paginator.posts -%}
+<article class="post">
+  <div class="d-flex p-3">
+    <div class="d-flex flex-column post-info-icon-card">
+      <i class="{{ post.icon }}"></i>
+      {%- assign category = post.categories.first -%}
+      {%- assign predefined_url = site.data.categories[category].url -%}
+      {%- capture url -%}{{ site.baseurl }}{% if predefined_url %}{{ predefined_url }}{% else %}/category/{{ category }}{% endif %}{%- endcapture -%}
+      <div class="text-center"><a href="{{ url }}">{{ category }}</a></div>
+    </div>
+    <div class="card shadow-lg flex-grow-1">
+      <div class="card-header">
+        <h4 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}" class="card-link">{{ post.title }}</a></h4>
+        <p class="card-text"><i class="far fa-clock"></i> {{ post.date | date_to_string }}{%- if post.last_updated -%}&emsp;<i class="fas fa-edit"></i> {{ post.last_updated | date_to_string }}{%- endif -%}</p>
+      </div>
+      <div class="card-body pb-1 pt-0">
+        <p class="card-text mt-1">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip }}</p>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="card-link btn btn-sm btn-default btn-raised rounded-lg" role="button">Read More...</a>
+      </div>
+      <div class="card-footer">
+        <p class="card-link"><a href="{{ post.url | prepend: site.url }}#disqus_thread" data-disqus-identifier="{{post.id}}"></a></p>
+      </div>
+    </div>
+  </div>
+</article>
+{%- endfor -%}
+</div>
 
 <!-- Pagination links -->
 {%- if paginator.total_pages > 1 -%}
