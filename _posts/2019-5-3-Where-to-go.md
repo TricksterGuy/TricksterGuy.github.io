@@ -2,7 +2,7 @@
 layout: post
 title: Where to go?
 description: The only direction is up!
-icon: fas fa-directions
+icon: fas fa-directions icon-text-yellow icon-bg-black
 last_updated: 2019-05-08 1:30:00 -0800
 categories: status
 ---

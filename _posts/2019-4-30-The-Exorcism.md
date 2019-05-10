@@ -2,7 +2,7 @@
 layout: post
 title: The Exorcism
 description: I HAVE A DEMON INSIDE ME! Also I prefer Magolar to Marx.
-icon: fas fa-ghost
+icon: fas fa-ghost icon-bg-black icon-text-white
 date: 2019-04-30 16:01:00 -0800
 categories: status
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: The Bare Minimum Chicken
 description: It's all I ever do now...
-icon: fas fa-drumstick-bite
+icon: fas fa-drumstick-bite icon-text-brown icon-bg-pale-blue
 date: 2019-04-30 00:00:00 -0800
 categories: recipe
 ---

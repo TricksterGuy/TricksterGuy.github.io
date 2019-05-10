@@ -2,7 +2,7 @@
 layout: post
 title: I'm only human
 description: If I had to graph my mood over time, it would be y = -cos(x)
-icon: fas fa-question-circle
+icon: fas fa-male
 categories: status
 ---
 Well I don't know who will actually read this, but for those interested I guess I'll periodically make one of these types of blog posts. Hence known as **status** post.

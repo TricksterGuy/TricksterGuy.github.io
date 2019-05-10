@@ -2,7 +2,7 @@
 layout: post
 title: Day At GT Catalyst!
 description: That one time I inspired a bunch of high school students.
-icon: fas fa-laptop-code
+icon: fas fa-laptop-code icon-bg-blue icon-text-grey
 categories: others
 ---
 So over the past weekend April 13th 2019, I participated as a mentor for Catalyst by the Hack GT team [link](https://catalyst.hack.gt/#important-info).  If you didn't know the event was a "Hackathon" type event for High Schoolers all throughout Georgia, an all day event of STEAM and Computer Science education for free I might add.

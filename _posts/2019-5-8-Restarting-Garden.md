@@ -2,7 +2,7 @@
 layout: post
 title: Restarting Garden
 description: I was going to title this Restarden garden, but let's not make puns here. Anyway restart of the hydroponic garden.
-icon: fas fa-seedling
+icon: fas fa-seedling icon-text-green icon-bg-brown
 categories: gardening
 ---
 

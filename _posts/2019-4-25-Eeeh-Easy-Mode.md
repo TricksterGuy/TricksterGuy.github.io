@@ -2,7 +2,7 @@
 layout: post
 title: Eeeh? Easy Mode?
 description: Yup I'm a noob, but seriously ice does suck!
-icon: fas fa-laugh-squint fa-spin
+icon: fas fa-laugh-squint fa-spin icon-text-yellow icon-bg-black
 last_updated: 2019-04-27 11:17:00 -0800
 categories: status
 ---

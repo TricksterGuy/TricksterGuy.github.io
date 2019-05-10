@@ -2,7 +2,7 @@
 layout: post
 title: Cold Brewing Episode 1
 description: Cold Brew Tea / Cacao, but seriously though just give me the damn recipe upfront!
-icon: fas fa-coffee
+icon: fas fa-coffee icon-text-black icon-bg-grey
 last_updated: 2019-05-01 11:30:00 -0800
 categories: recipe
 ---

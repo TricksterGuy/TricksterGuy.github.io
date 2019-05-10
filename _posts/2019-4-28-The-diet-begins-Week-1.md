@@ -2,7 +2,7 @@
 layout: post
 title: The diet begins - Week 1.
 description: It's really easy in theory, but oh god I need my fries!
-icon: fas fa-running
+icon: fas fa-running icon-text-red icon-bg-pale-green
 categories: diet
 ---
 
