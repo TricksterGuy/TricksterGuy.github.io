@@ -8,14 +8,19 @@ layout: default
     </div>
     <div class="card-body">
       <div class="d-flex flex-wrap">
-        {%- for category in site.categories -%}
+        {%- for category_hash in site.categories -%}
         <div>
           <!-- Note that site.categories is a hash so category[0] is the category -->
-          {%- if category[0] == page.category -%}
-          <button class="btn btn-sm btn-primary btn-raised rounded-lg m-3" style="width:100px;">{{ category[0] }}</button>
+          {%- assign category = category_hash[0] -%}
+          {%- unless site.data.categories[category].display == false -%}
+          {%- assign predefined_url = site.data.categories[category].url -%}
+          {%- capture url -%}{{ site.baseurl }}{% if predefined_url %}{{ predefined_url }}{% else %}/category/{{ category }}{% endif %}{%- endcapture -%}
+          {%- if category == page.category -%}
+          <button class="btn btn-sm btn-primary btn-raised rounded-lg m-3" style="width:100px;">{{ category }}</button>
           {%- else -%}
-          <a href="{{ site.baseurl }}/category/{{ category[0] }}" class="btn btn-sm btn-default btn-raised rounded-lg m-3" style="width:100px;">{{ category[0] }}</a>
+          <a href="{{ url }}" class="btn btn-sm btn-default btn-raised rounded-lg m-3" style="width:100px;">{{ category }}</a>
           {%- endif -%}
+          {%- endunless -%}
         </div>
         {%- endfor -%}
       </div>

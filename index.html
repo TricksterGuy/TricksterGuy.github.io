@@ -7,7 +7,10 @@ title: Blog
   <div class="d-flex py-3">
     <div class="d-flex flex-column post-info-icon-card">
       <i class="{{ post.icon }}"></i>
-      <div class="text-center"><a href="{{ site.url }}/category/{{ post.categories.first }}">{{ post.categories.first }}</a></div>
+      {%- assign category = post.categories.first -%}
+      {%- assign predefined_url = site.data.categories[category].url -%}
+      {%- capture url -%}{{ site.baseurl }}{% if predefined_url %}{{ predefined_url }}{% else %}/category/{{ category }}{% endif %}{%- endcapture -%}
+      <div class="text-center"><a href="{{ url }}">{{ category }}</a></div>
     </div>
     <div class="card shadow-lg flex-grow-1">
       <div class="card-header">
