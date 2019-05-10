@@ -5,9 +5,9 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav">
         {%- for data in site.data.urls -%}
-        <li class="nav-item ml-auto">
+        <li class="nav-item">
           <a class="nav-link" href="{{ data.url }}"><i class="{{ data.icon }} fa-2x"></i> {{ data.text }}</a>
         </li>
         {%- endfor -%}
