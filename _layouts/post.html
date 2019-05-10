@@ -11,8 +11,8 @@ layout: default
             {%- assign category = page.categories.first -%}
             {%- assign predefined_url = site.data.categories[category].url -%}
             {%- capture url -%}{{ site.baseurl }}{% if predefined_url %}{{ predefined_url }}{% else %}/category/{{ category }}{% endif %}{%- endcapture -%}
-
             In &raquo; <a href="{{ url }}">{{ category }}</a>
+
             {%- for category in categories offset:1 -%}
             {%- unless site.data.categories[category].display == false -%}
             {%- assign predefined_url = site.data.categories[category].url -%}
