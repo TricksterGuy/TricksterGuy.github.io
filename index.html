@@ -3,7 +3,7 @@ layout: default
 title: Blog
 ---
 {%- if paginator.page == 1 -%}
-<b>Pinned Posts</b>
+<div class="pt-3"><b>Pinned Posts</b></div>
 {%- for post in site.categories.pinned -%}
 <article class="post">
   {%- include post-card.html -%}
@@ -13,16 +13,14 @@ title: Blog
 
 <hr/>
 
-<div class="py-3">
 {%- if paginator.page == 1 -%}
-<b>Recent Posts</b>
+<div class="pt-3"><b>Recent Posts</b></div>
 {%- endif -%}
 {%- for post in paginator.posts -%}
 <article class="post">
   {%- include post-card.html -%}
 </article>
 {%- endfor -%}
-</div>
 
 <!-- Pagination links -->
 {%- if paginator.total_pages > 1 -%}
