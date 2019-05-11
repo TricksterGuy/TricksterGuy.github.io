@@ -4,7 +4,7 @@ title: Blog
 ---
 {%- if paginator.page == 1 -%}
 <div class="pt-3"><b>Pinned Posts</b></div>
-{%- for post in site.categories.pinned -%}
+{%- for post in site.tags.pinned -%}
 <article class="post">
   {%- include post-card.html -%}
 </article>

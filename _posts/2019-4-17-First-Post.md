@@ -3,7 +3,8 @@ layout: post
 title: First Post!
 description: That first post I'm probably going to come back to one day and cringe at.
 icon: fab fa-firstdraft icon-text-white icon-bg-black
-categories: others pinned
+categories: others
+tags: pinned
 enable_previous: false
 last_updated: 2019-04-22 12:58:00 -0800
 ---
