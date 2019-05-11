@@ -37,6 +37,9 @@ title: Blog
 <hr/>
 
 <div class="py-3">
+{%- if paginator.page == 1 -%}
+<b>Recent Posts</b>
+{%- endif -%}
 {%- for post in paginator.posts -%}
 <article class="post">
   <div class="d-flex p-3">
