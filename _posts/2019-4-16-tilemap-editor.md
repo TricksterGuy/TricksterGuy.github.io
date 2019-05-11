@@ -2,6 +2,7 @@
 layout: post
 title: "Tilemap Editor"
 description: Longest running project, needs a better name... meh.
+use_description_in_meta: true
 icon: fas fa-map
 project_image: tilemap-editor.png
 start_date: "Sept 2009"

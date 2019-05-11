@@ -4,15 +4,25 @@
 
   <title>{{ page.title }} - {{ site.name }}</title>
 
+  {%- capture description -%}
+  {%- if page.use_description_in_meta -%}
+  {{ page.description }}
+  {%- elsif page.description -%}
+  {{ page.excerpt | strip_html | strip }}
+  {%- else -%}
+  {{ site.description }}
+  {%- endif -%}
+  {%- endcapture -%}
+
   <meta name="author" content="{{ site.author }}">
-  <meta name="description" content={% if page.description %}"{{ page.excerpt }}"{% else %}"{{ site.description }}"{% endif %}>
+  <meta name="description" content="{{ description }}">
 
   <!-- Open Graph meta -->
   <meta property="og:type" content={% if page.title %}"article"{% else %}"website"{% endif %}>
   <meta property="og:title" content="{{ page.title }}">
   <!-- Use the excerpt if I gave the page a description otherwise use the site description -->
   <!-- Description is hidden directors cut text :^) -->
-  <meta property="og:description" content={% if page.description %}"{{ page.excerpt }}"{% else %}"{{ site.description }}"{% endif %}>
+  <meta property="og:description" content="{{ description }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:image" content={% if page.image %}"{{ site.url }}{{ page.image }}"{% else %}"{{ site.url }}{{ site.logo }}"{% endif %}>
 
@@ -21,7 +31,7 @@
   <meta name="twitter:site" content="@{{ site.contact.twitter }}">
   <meta name="twitter:creator" content="@{{ site.contact.twitter }}">
   <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content={% if page.description %}"{{ page.excerpt }}"{% else %}"{{ site.description }}"{% endif %}>
+  <meta name="twitter:description" content="{{ description }}">
   <meta name="twitter:image" content={% if page.image %}"{{ site.url }}{{ page.image }}"{% else %}"{{ site.url }}{{ site.logo }}"{% endif %}>
 
   <!-- Date time stuff -->
