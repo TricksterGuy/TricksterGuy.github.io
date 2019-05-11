@@ -1,0 +1,24 @@
+  <div class="py-3">
+    <div class="card shadow-lg">
+      <div class="card-header d-flex flex-row p-2">
+        <div class="d-flex flex-column post-info-icon-card">
+          <i class="{{ post.icon }}"></i>
+          {%- assign category = post.categories.first -%}
+          {%- assign predefined_url = site.data.categories[category].url -%}
+          {%- capture url -%}{{ site.baseurl }}{% if predefined_url %}{{ predefined_url }}{% else %}/category/{{ category }}{% endif %}{%- endcapture -%}
+          <div class="text-center"><a href="{{ url }}">{{ category }}</a></div>
+        </div>
+        <div class="align-self-center">
+          <h4 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}" class="card-link">{{ post.title }}</a></h4>
+          <p class="card-text"><i class="far fa-clock"></i> {{ post.date | date_to_string }}{%- if post.last_updated -%}&emsp;<i class="fas fa-edit"></i> {{ post.last_updated | date_to_string }}{%- endif -%}</p>
+        </div>
+      </div>
+      <div class="card-body py-1">
+        <p class="card-text mt-1">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip }}</p>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="card-link btn btn-sm btn-default btn-raised rounded-lg" role="button">Read More...</a>
+      </div>
+      <div class="card-footer py-1">
+        <p class="card-link"><a href="{{ post.url | prepend: site.url }}#disqus_thread" data-disqus-identifier="{{post.id}}"></a></p>
+      </div>
+    </div>
+  </div>
