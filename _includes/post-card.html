@@ -18,7 +18,7 @@
         <a href="{{ site.baseurl }}{{ post.url }}" class="card-link btn btn-sm btn-default btn-raised rounded-lg" role="button">Read More...</a>
       </div>
       <div class="card-footer py-1">
-        <p class="card-link"><a href="{{ post.url | prepend: site.url }}#disqus_thread" data-disqus-identifier="{{post.id}}"></a></p>
+        <p class="card-link"><a href="{{ post.url | prepend: site.url | prepend: 1 }}#disqus_thread" data-disqus-identifier="{{post.id}}"></a></p>
       </div>
     </div>
   </div>

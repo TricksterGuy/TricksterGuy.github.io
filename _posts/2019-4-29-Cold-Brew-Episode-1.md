@@ -5,6 +5,7 @@ description: Cold Brew Tea / Cacao, but seriously though just give me the damn r
 icon: fas fa-coffee icon-text-black icon-bg-grey
 last_updated: 2019-05-01 11:30:00 -0800
 categories: recipe
+tags: cold-brew-episodes
 ---
 Food post! Welcome to the 10% of my time actually spent experimenting with food rather than trying to find something to feel sorry for :^).  Anywho the process of cold brewing and my equipment are explained here along with the current brew.
 Beware, when I get a new **it** thing its all I talk about and I research *deeply* into the topic. This is one such occurrence.

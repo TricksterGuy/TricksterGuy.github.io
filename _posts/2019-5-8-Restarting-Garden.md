@@ -4,6 +4,7 @@ title: Restarting Garden
 description: I was going to title this Restarden garden, but let's not make puns here. Anyway restart of the hydroponic garden.
 icon: fas fa-seedling icon-text-green icon-bg-brown
 categories: gardening
+tags: gardening-episodes
 ---
 
 So just now restarted my Aerogarden.  If you didn't know Aerogarden is a an easy to use hydroponic garden system.  You can start an indoor garden easily.

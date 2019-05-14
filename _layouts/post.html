@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<div>
   <article>
     <div class="card my-3 shadow-sm">
       <div class="jumbotron bg-transparent">
@@ -25,21 +24,22 @@ layout: default
       </div>
     </div>
     <div class="card shadow-lg">
-      {%- if page.image -%}<img src="{{ page.image }}" class="card-img-top"></img>{%- endif -%}
-      <div class="card-body">{{ content }}</div>
+      {% if page.image %}<img src="{{ page.image }}" class="card-img-top"></img>{% endif %}
+      <div class="card-body">
+        {{ content }}
+      </div>
     </div>
   </article>
+
   <hr/>
 
   <div class="d-flex">
-    {%- if page.previous.url and page.enable_previous != false -%}
+    {% if page.previous.url and page.enable_previous != false %}
       <a class="mr-auto btn btn-sm btn-default btn-raised rounded-lg" href="{{ site.baseurl }}{{ page.previous.url }}" role="button">&laquo; {{ page.previous.title }}</a>
-    {%- endif -%}
-    {%- if page.next.url and page.enable_next != false -%}
+    {% endif %}
+    {% if page.next.url and page.enable_next != false %}
       <a class="ml-auto btn btn-sm btn-default btn-raised rounded-lg" href="{{ site.baseurl }}{{ page.next.url }}" role="button">{{ page.next.title }} &raquo;</a>
-    {%- endif -%}
+    {% endif %}
   </div>
   <hr/>
-
-  {%- include disqus.html -%}
-</div>
+  {% include disqus.html %}
