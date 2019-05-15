@@ -7,12 +7,15 @@ permalink: /meta/
 
 ## Known Issues.
 
-* Title display on mobile sucks, everything is scrunched together. Using request desktop site gets you a much better experience.
 * I need a better recipe system.
-* Image galleries?
+* TODO make a "Making of" post.
 
 
 ## Updates
+
+### 5/15/2019
+
+Added support for image galleries. New setup for images and videos using Bootstrap cards.
 
 ### 5/2/2019
 Wow Bootstrap is awesome, I noticed the internals of this theme I have uses bootstrap for everything.

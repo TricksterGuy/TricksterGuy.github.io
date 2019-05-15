@@ -5,6 +5,28 @@ description: Seriously though whoever animated Wario did a hilariously good job.
 icon: fab fa-weebly icon-text-purple icon-bg-yellow
 categories: gaming
 tags: snes-highlights game-highlights
+gallery1: {
+  "images": [
+    {"src": "/images/2019-5-13-Snes-Warios-Woods/warios_round1.png", alt: "Beginning", caption: "Start of Toads adventure in the woods"},
+    {"src": "/images/2019-5-13-Snes-Warios-Woods/warios_round3.png", alt: "End", caption: "Wario's castle"}
+  ]
+}
+gallery2: {
+  "images": [
+    {"src": "/images/2019-5-13-Snes-Warios-Woods/warios_round2.png", alt: "Birdo", caption: "Birdo reminding you she's on the clock"},
+    {"src": "/images/2019-5-13-Snes-Warios-Woods/warios_round4.png", alt: "Wario", caption: "Wario doing his thing. It's hilarious the animation here. How his arm goes outside the box when he makes the thwomp lower."}
+  ]
+}
+gallery3: {
+  "images": [
+    {"src": "/images/2019-5-13-Snes-Warios-Woods/warios_vs1.png", alt: "VS 1", caption: "Like seriously who the heck are you? Barney the dinosaur?"},
+    {"src": "/images/2019-5-13-Snes-Warios-Woods/warios_vs6.png", alt: "VS 2", caption: "I need more of this disco looking frog."},
+    {"src": "/images/2019-5-13-Snes-Warios-Woods/warios_vs2.png", alt: "VS 3", caption: "We'll see about that imp looking thing."},
+    {"src": "/images/2019-5-13-Snes-Warios-Woods/warios_vs3.png", alt: "VS 4", caption: "This knight does math! Funnily enough took him down in less than 30 seconds... Toad is also happy about this."},
+    {"src": "/images/2019-5-13-Snes-Warios-Woods/warios_vs4.png", alt: "VS 5", caption: "He really does remind me of March Hare..."},
+    {"src": "/images/2019-5-13-Snes-Warios-Woods/warios_vs5.png", alt: "VS 6", caption: "Wario himself!"},
+  ]
+}
 ---
 
 Who knew a puzzle game in the Mario universe starring Toad, Birdo, and Wario existed?
@@ -22,19 +44,10 @@ Apparently Wario has taken control of the peaceful forest and is trying to conqu
 from Wikipedia happens right after Super Mario World. Well Mario's on vacation with Peach, Yoshi has his own game and is fighting with Bowser at Yoshi's
 Island... so Toad you can take this one!
 
-Toad has to travel through the Woods that has been taken over by Wario and eventually get to his castle to undo the spell over the woods.
+Toad has to travel through the Woods that has been taken over by Wario and eventually get to his castle to undo the spell over the woods. There are 100 rounds
+in the main game ending with Toad saving the day from Wario.
 
-{% include image.html
-            img="/images/2019-5-13-Snes-Warios-Woods/warios_round1.png"
-            title="Start"
-            caption="Start of Toads adventure in the woods"%}
-
-{% include image.html
-            img="/images/2019-5-13-Snes-Warios-Woods/warios_round3.png"
-            title="Scene"
-            caption="Wario's castle'"%}
-
-There are 100 rounds in the main game ending with Toad saving the day from Wario.
+{% include image-gallery.html gallery=page.gallery1 col="col-xs-12 col-sm-6" %}
 
 ## Gameplay
 Toad is the main character, Birdo is a supporting character, and Wario is the antagonist. The game is played starting with Toad and Birdo along with Wanda
@@ -43,15 +56,7 @@ replaced with a pigeon who spawns more monsters while Wario lowers the ceiling, 
 and is replaced with Birdo again. Before Wario leaves though, the pigeon may lay an egg. These eggs are bad because they contain a monster and there's a 50/50
 chance when the egg hatches it will rain monsters of that type. A parting gift from Wario to make your day worse.
 
-{% include image.html
-            img="/images/2019-5-13-Snes-Warios-Woods/warios_round2.png"
-            title="Scene"
-            caption="The Gameplay Level 1, and Birdo reminding you she's (he's?) on the clock"%}
-
-{% include image.html
-            img="/images/2019-5-13-Snes-Warios-Woods/warios_round4.png"
-            title="Scene 2"
-            caption="Wario doing his thing. It's hilarious to me how his arm goes outside the box when he lowers the thwomp."%}
+{% include image-gallery.html gallery=page.gallery2 col="col-xs-12 col-sm-6" %}
 
 As far as controls they do take some getting used to. Toad is a strong boi and can pick up stacks of monsters as long as the thwomp doesn't get in the way, that
 is, if a stack of monsters is right below the thwomp there's not enough space for Toad to pick it up. The A button allows Toad to pick up the entire stack,
@@ -85,20 +90,18 @@ you get lucky. The odd thing is doing chains while Wario is up *decreases* the a
 the level before Wario leaves and you lose more coins. You are punished for doing well. It should have been you lose coins when Wario comes in that way you
 don't feel cheated for doing tons of combos to reduce the amount of time Wario is up.
 
-And past round 99 after the ending you have the choice to continue playing, but boy is it hard. Look how ravenous Wario is. He wants revenge!
+And past round 99 after the ending you have the choice to continue playing, but boy is it hard.
 
 {% include video.html
-            src="https://www.youtube.com/embed/7bANs7-pRvg" %}
-
+            src="https://www.youtube.com/embed/7bANs7-pRvg"
+            caption="Look how ravenous Wario is. He wants revenge!" %}
 
 ## Ending
 
 {% include video.html
-            src="https://www.youtube.com/embed/dSxUWiiCvCQ" %}
+            src="https://www.youtube.com/embed/dSxUWiiCvCQ"
+            caption="Nothing too exciting, Toad blows up Wario's Castle, sadly he just got that in Wario Land: Super Mario Land 3. It would take 9 years for Wario to repair his castle before the events of Wario World..." %}
 
-Nothing too exciting, just a small cutscene lol.
-
-Toad blows up Wario's Castle, sadly he just got that in Wario Land: Super Mario Land 3. It would take 9 years for Wario to repair his castle in Wario World...
 
 
 ## 2 Player / VS CPU
@@ -106,40 +109,17 @@ The game was also adapted to multiplayer, the rules are the same, except at the 
 of the Mario universe ranging from a Witch, to a Knight, to a March Hare lookalike from Alice in Wonderland. Its weird that they came up with these weird cast
 of characters and never used them again for anything.
 
-{% include image.html
-            img="/images/2019-5-13-Snes-Warios-Woods/warios_vs1.png"
-            title="VS Character"
-            caption="Like seriously who the heck are you? Barney the dinosaur?"%}
-
-{% include image.html
-            img="/images/2019-5-13-Snes-Warios-Woods/warios_vs6.png"
-            title="VS Character 2"
-            caption="I need more of this disco looking frog!"%}
-
-{% include image.html
-            img="/images/2019-5-13-Snes-Warios-Woods/warios_vs2.png"
-            title="VS Character 3"
-            caption="We'll see about that imp looking thing."%}
-
-{% include image.html
-            img="/images/2019-5-13-Snes-Warios-Woods/warios_vs3.png"
-            title="VS Character 4"
-            caption="Dis knight does math! Funnily enough took him down in less than 30 seconds... Toad is also happy about this."%}
-
-{% include image.html
-            img="/images/2019-5-13-Snes-Warios-Woods/warios_vs4.png"
-            title="VS Character 5"
-            caption="He really does remind me of March Hare..."%}
-
-{% include image.html
-            img="/images/2019-5-13-Snes-Warios-Woods/warios_vs5.png"
-            title="VS Character 6"
-            caption="Wario himself!"%}
+{% include image-gallery.html gallery=page.gallery3 col="col-xs-12 col-sm-6 col-md-4" %}
 
 The differences between this and the main mode are that its 2 players each player gets their own game board. The main win condition is the same, be the first to
 clear your board and you win. However the other win condition is to make it so the other player gets crushed by their thwomp. You can lower the other players
 thwomp by performing tricks, as you do so their thwomp will lower, possibly due to the jealousy of watching the other player do well in the game and wants to
 put pressure on you to do better.
+
+{% include image.html
+            img="/images/2019-5-13-Snes-Warios-Woods/warios_vs7.png"
+            alt="Thwomp"
+            caption="Jealous thwomp is jealous." %}
 
 Some moves from the main game do have effects on your opponents board, for better or worse:
 
@@ -151,15 +131,8 @@ monsters.
 will be sent to your opponent. There is a 50/50 chance when the egg hatches that it will rain monsters of that type.
 * And again clearing 4 or more monsters or any tricks can lower the opponents thwomp.
 
-{% include image.html
-            img="/images/2019-5-13-Snes-Warios-Woods/warios_vs7.png"
-            title="VS Character 7"
-            caption="Jealous thwomp is jealous."%}
 
-**Me vs Wario**
-{% include video.html
-            src="https://www.youtube.com/embed/UlRziEUc8ZM" %}
-Sorry for the video quality, apparently I'm bad at videos. I will figure out this program and fix the video later.
+### Thoughts
 
 I do like when games provide multiple ways to play. You can either go all offensive and try to distract the other player, or go strategical and clear your
 board.
@@ -175,7 +148,11 @@ alternating colors so it wouldn't just simply be pick up the stack and bomb.
 Crystals are too overpowered and I think it should just change bombs of the same type of the opponents board to monsters, though if that above change was made,
 I'd keep it the same as crystals would become much harder to come by.
 
+### Me vs Wario
 
+{% include video.html
+            src="https://www.youtube.com/embed/UlRziEUc8ZM"
+            caption="Sorry for the video quality, apparently I'm bad at videos. I will figure out this program and fix the video later." %}
 
 ## Availability
 
@@ -187,3 +164,4 @@ I'd keep it the same as crystals would become much harder to come by.
 ## Trivia
 * Wario's woods was the last licensed game released on the NES in North America
 * It is the only NES game to have an ESRB rating
+* Second game to feature Birdo

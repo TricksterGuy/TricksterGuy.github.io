@@ -1,8 +1,8 @@
-  <figure style="{{ include.style }}">
-    <a href="{{ include.img }}">
-      <img class="figure-image img-fluid img-thumbnail" src="{{ include.img }}" style="{{ include.img_style }}" alt="{{ include.alt }}"/>
-    </a>
-    <figcaption>
-      {{ include.caption }}
-    </figcaption>
-  </figure>
+  <div class="card border-0 mx-auto w-sm-100 w-md-50 {{ include.class }}" style="{{ include.style }}">
+    <a href="{{ include.img }}"><img src="{{ include.img }}" alt="{{ include.alt }}" class="card-img-top img-fluid" style="{{ include.img_style }}"></a>
+    <div class="card-body">
+      {%- if include.title -%}<h6>{{ include.title }}</h6>{%- endif -%}
+      <p class="text-muted card-text">{{ include.caption }}</p>
+    </div>
+  </div>
+  <br/>
