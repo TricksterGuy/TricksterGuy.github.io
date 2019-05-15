@@ -36,9 +36,8 @@ Unless you hit up Whole Foods at the right time of year, or your nearest farmers
 Most of my food experiments were spawned off from watching episodes, it does a great job showing cooking techniques and secrets. Of course an anime must have its over the top reactions and of course serving up that *fan service*
 
 {% include video.html
-            src="https://www.youtube.com/embed/Fb0Og6pB9Z8" %}
-Foodgasm at 2:26. This was one of the more tamer reactions... Others especially involving female characters... Well lets say the fan service was served piping hot :^)
-{: .smaller}
+            src="https://www.youtube.com/embed/Fb0Og6pB9Z8"
+            caption="Foodgasm at 2:26. This was one of the more tamer reactions... Others especially involving female characters... Well lets say the fan service was served piping hot :^)"%}
 
 So yeah in one of the episodes one of the "secret surprises" added to a dish was Holy Basil, so now I have to grow this for myself.
 
@@ -60,7 +59,7 @@ Well he'll definitely have moved to Europe by that time sadly... so Nasturtium g
 
 {% include image.html
             img="/images/2019-5-8-Restarting-Garden/nasturtium.jpg"
-            title="Nasturtium Seeds"
+            alt="Nasturtium Seeds"
             caption="Haha seriously here are the seeds, big boi seeds" %}
 
 **Lemon Balm**. Another great easy herb to grow. Literally this thing TOOK OVER the entire garden, I wouldn't be surprised if this thing was a relative of the Mint family. Mints are very easy to grow.
@@ -76,7 +75,7 @@ The only negative is the whole stems are included with the leaves and the stems 
 
 {% include image.html
             img="/images/2019-5-8-Restarting-Garden/seeds.jpg"
-            title="Seeds"
+            alt="Seeds"
             caption="Here's all of the seeds I have so far, missing the last two and San Marzano's" %}
 
 
@@ -103,22 +102,23 @@ I have the [Aerogarden Elite Bounty](https://amazon.com/gp/product/B01IK7PX88). 
 
 {% include image.html
             img="/images/2019-5-8-Restarting-Garden/aerogarden_setup.jpg"
-            title="Setup"
+            alt="Setup"
             caption="The aerogarden." %}
 
 How it works is the top part has special leds optimized for plant growth. Each pod fits in each hole as shown in the image.
 
 {% include image.html
             img="/images/2019-5-8-Restarting-Garden/aerogarden_leds.jpg"
-            title="Leds"
+            alt="Leds"
             caption="The leds on top, it really lights up in patriotic colors :^)" %}
 
 Underneath the top on the base...
 
 {% include image.html
             img="/images/2019-5-8-Restarting-Garden/base.jpg"
-            title="Base"
+            alt="Base"
             caption="The base with a water pump." %}
+
 There's a pump underneath which circulates the water to the grow sponges so the top part of the sponge remains moist and better circulation of nutrients.
 
 As mentioned above for each slot you need:
@@ -131,7 +131,7 @@ As mentioned above for each slot you need:
 
 {% include image.html
             img="/images/2019-5-8-Restarting-Garden/components.jpg"
-            title="Components"
+            alt="Components"
             caption="Grow Basket, Grow Sponge, Label. Didn't have any domes, but ordered more!" %}
 
 So the steps are as follows. Because I didn't have an iron you are to take the label place it on the grow basket and use the iron to apply heat.
@@ -143,7 +143,7 @@ Luckily most seeds I have are tiny bois.
 
 {% include image.html
             img="/images/2019-5-8-Restarting-Garden/lavender.jpg"
-            title="Lavender Seeds"
+            alt="Lavender Seeds"
             caption="Lavender seeds are very tiny." %}
 
 Insert the grow sponge in the grow basket with the label.  Also be sure to label before ironing on haha.
@@ -154,21 +154,21 @@ Once you have all of them in. Now time to add the liquid fertilizer. Most times 
 
 {% include image.html
             img="/images/2019-5-8-Restarting-Garden/nutrients.jpg"
-            title="Liquid Nutrients"
+            alt="Liquid Nutrients"
             caption="The liquid nutrients, the smell ain't too great." %}
 
 And here's the aerogarden almost set up.
 
 {% include image.html
             img="/images/2019-5-8-Restarting-Garden/aerogarden_with_pods.jpg"
-            title="Aerogarden"
+            alt="Aerogarden"
             caption="Hadn't inserted seeds in the raised grow sponges." %}
 
 ## Aerogarden Day 0
 
 {% include image.html
             img="/images/2019-5-8-Restarting-Garden/aerogarden_in_action.jpg"
-            title="In action"
+            alt="In action"
             caption="The aerogarden turned on, still missing them grow domes. I'll get them today!" %}
 
 So this model has a fancy UI which allows you to control various parameters.
@@ -178,7 +178,7 @@ Or how long the germination process takes.
 
 {% include image.html
             img="/images/2019-5-8-Restarting-Garden/aerogarden_ui.jpg"
-            title="The UI"
+            alt="The UI"
             caption="Fancy looking UI with all the bells and whistles." %}
 
 Well this is just a starter post. I will do more as things happen.

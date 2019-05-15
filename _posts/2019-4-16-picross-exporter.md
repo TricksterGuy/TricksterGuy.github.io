@@ -115,15 +115,14 @@ As a real example of a puzzle here's Pikachu
 
 {% include image.html
             img="https://66.media.tumblr.com/1d710c53dddcd114b42e4781fa1c52cf/tumblr_inline_mi3fpcf9fz1roozkr.png"
-            title="pikachu"
-            caption="" %}
+            alt="pikachu"
+            style="max-width:10%" %}
 
 And here's the program in Classic Black/White mode.
 
 {% include image.html
             img="/images/projects/picross-exporter.png"
-            title="Classic"
-            caption="" %}
+            alt="Classic" %}
 
 ## Grayscale Picross
 
@@ -137,15 +136,13 @@ Again referring to the pikachu image above that image as a 16x16 grayscale puzzl
 
 {% include image.html
             img="/images/projects/picross-exporter-grayscale-2.png"
-            title="grayscale 4 shades"
-            caption="" %}
+            alt="grayscale 4 shades" %}
 
 And here's the image as a 16x16 grayscale puzzle with 3 bits (8 shades)
 
 {% include image.html
             img="/images/projects/picross-exporter-grayscale-3.png"
-            title="grayscale 8 shades"
-            caption="" %}
+            alt="grayscale 8 shades" %}
 
 Note that if bits = 1 then you just have the Classic Mode puzzle.
 
@@ -163,15 +160,13 @@ As an example, I'll use the same pikachu image as above.
 
 {% include image.html
             img="/images/projects/picross-exporter-painting-all.png"
-            title="painting picross full image"
-            caption="" %}
+            alt="painting picross full image" %}
 
 And here's just the picross puzzle for yellow
 
 {% include image.html
             img="/images/projects/picross-exporter-painting-yellow.png"
-            title="painting picross yellow layer"
-            caption="" %}
+            alt="painting picross yellow layer" %}
 
 So solving one of these will require you to flip between the layers!
 
@@ -189,22 +184,19 @@ Light puzzle with 1 bits (2 shades on/off)
 
 {% include image.html
             img="/images/projects/picross-exporter-light-1.png"
-            title="light 2 shades"
-            caption="" %}
+            alt="light 2 shades" %}
 
 Light puzzle with 2 bits (4 shades)
 
 {% include image.html
             img="/images/projects/picross-exporter-light-2.png"
-            title="light 4 shades"
-            caption="" %}
+            alt="light 4 shades" %}
 
 Light puzzle with 3 bits (8 shades)
 
 {% include image.html
             img="/images/projects/picross-exporter-light-3.png"
-            title="light 8 shades"
-            caption="" %}
+            alt="light 8 shades" %}
 
 ## Validation
 Fun fact! Given a picross puzzle the solution to it might not be unique. See below setup.

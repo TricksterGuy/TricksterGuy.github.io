@@ -1,8 +1,10 @@
   <div class="card border-0 mx-auto w-sm-100 w-md-50 {{ include.class }}" style="{{ include.style }}">
     <a href="{{ include.img }}"><img src="{{ include.img }}" alt="{{ include.alt }}" class="card-img-top img-fluid" style="{{ include.img_style }}"></a>
+    {%- if include.caption -%}
     <div class="card-body">
       {%- if include.title -%}<h6>{{ include.title }}</h6>{%- endif -%}
       <p class="text-muted card-text">{{ include.caption }}</p>
     </div>
+    {%- endif -%}
   </div>
   <br/>

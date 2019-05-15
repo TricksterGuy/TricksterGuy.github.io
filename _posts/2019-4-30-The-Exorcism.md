@@ -11,10 +11,9 @@ This post is intended as an day 1 application to [The diet begins](https://trick
 
 ## This is me. Marx
 
-Simply replace cocaine with carbs and high carb foods and there you have it!
-
 {% include video.html
-            src="https://www.youtube.com/embed/dvQmE0iwWNw" %}
+            src="https://www.youtube.com/embed/dvQmE0iwWNw"
+            caption="Simply replace cocaine with carbs and there you have it!" %}
 
 It's a slippery slope, day 1 I just eat one meal at a restaurant and a cliff bar to knock myself out of ketosis slowly.
 
@@ -71,22 +70,22 @@ So I made my one meal for the day.
 
 {% include image.html
             img="/images/2019-4-30-The-Exorcism/weigh-in.jpg"
-            title="Weigh in"
+            alt="Weigh in"
             caption="A lot of damn greens" %}
 
 {% include image.html
             img="/images/2019-4-30-The-Exorcism/saute.jpg"
-            title="Weigh in"
+            alt="Weigh in"
             caption="Spoilers we did lose some leaves during cooking..." %}
 
 {% include image.html
             img="/images/2019-4-30-The-Exorcism/done.jpg"
-            title="Weigh in"
+            alt="Weigh in"
             caption="Wilted... Amazing how much volume is lost via cooking." %}
 
 {% include image.html
             img="/images/2019-4-30-The-Exorcism/finished.jpg"
-            title="Finished dish"
+            alt="Finished dish"
             caption="And the finished dish." %}
 
 Of course I log all of my calories and macros
@@ -160,8 +159,7 @@ And yeah I'm aware that the cheddar biscuit mix is a thing, meh, I'd buy it and 
 And.. this whole diet plays out with this playing in the background
 
 {% include video.html
-            src="https://www.youtube.com/embed/3NA6bvCNm58" %}
-
-At around 1:30 the music gets very feel-sy given a super secret final boss. Kirby games always has the best lore! Yeah need to do the Kirby DLC stuff.
+            src="https://www.youtube.com/embed/3NA6bvCNm58"
+            caption="At around 1:30 the music gets very feel-sy given a super secret final boss. Kirby games always has the best lore! Yeah need to do the Kirby DLC stuff." %}
 
 But yeah been closed off to the world lately, don't have to do it alone.

@@ -11,7 +11,7 @@ There were about 80 mentors and about half were in industry in various companies
 
 {% include image.html
             img="/images/2019-4-18-Day-At-GT-Catalyst/event-venue.jpg"
-            title="EVent Meeting Area"
+            alt="Event Meeting Area"
             caption="The main meeting area in the Klaus Atrium" %}
 
 The mentees split off into 4 tracks each led by 2 instructors which were college students at Georgia Tech.  The 4 tracks were as follows:
@@ -29,7 +29,7 @@ So each track had a similarish setup probably, the track leads would cover a few
 
 {% include image.html
             img="/images/2019-4-18-Day-At-GT-Catalyst/scratch-mario.png"
-            title="Mario in Scratch"
+            alt="Mario in Scratch"
             caption="Mario in Scratch" %}
 
 Development with scratch is easy. doesn't require too much effort with the building blocks system, and easily lends itself to having people learn programming via coding. The person who was one of mentees was easily able to add assets to the game, like one of them found the mario music on the internet and added the sound effects to the game and made the game work like a real mario game with the death animation and all, it was all very impressive.
@@ -38,8 +38,8 @@ Then lunch, with a panel discussion with engineers afterward.
 
 {% include image.html
             img="/images/2019-4-18-Day-At-GT-Catalyst/panel-discussion.jpg"
-            title="Panel Discussion"
-            caption="" %}
+            alt="Panel Discussion"
+            caption="The panel discussion event" %}
 
 Then more activity followed for the second part of the gaming track they covered Roblox and how to make games with it, ha again since I didn't have enough time to prepare I couldn't get Roblox installed on my laptop before flying out, and it appeared to be a pretty large installer that wouldn't download on the internet speeds I was getting so couldn't play along with the examples only read, but it was mostly pretty simple code and exercises so I just opted for learning with the mentees as the instructor went along.
 

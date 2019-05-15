@@ -8,6 +8,7 @@ project_image: tilemap-editor.png
 start_date: "Sept 2009"
 hidden: true
 permalink: projects/tilemap-editor
+enable_next: false
 categories: projects
 ---
 ## What is it
@@ -32,12 +33,12 @@ Note due to losing my former host these screenshots are of the new WIP codebase.
 
 {% include image.html
             img="/images/projects/tilemap-editor.png"
-            title="Map with Background"
+            alt="Map with Background"
             caption="Map with 2 layers and an autoscrolling background" %}
 
 {% include image.html
             img="/images/projects/tilemap-editor-2.png"
-            title="Map with Background Layer Rotated"
+            alt="Map with Background Layer Rotated"
             caption="Map with 3 layers (one of them rotated) and an autoscrolling background" %}
 
 ## Features

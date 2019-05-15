@@ -53,7 +53,7 @@ I really dig it. When you put the cap on it forms an airtight seal.  And yeah yo
 
 {% include image.html
             img="https://cdn.shopify.com/s/files/1/1267/5283/products/All_Products_600_2_2048x2048.png"
-            title="Hibiscus Ingredients"
+            alt="Ovalware cold brew maker"
             caption="Image from their website." %}
 
 ## Recipe
@@ -82,6 +82,7 @@ So now a copycat recipe with an additional twist. First iteration!
 | Cacao Nibs        | 1.5 tbsp (42g) |
 | Peppermint Leaves | 3 tbsp (10g)   |
 | Water (filtered)  | 6 cups (1.5L)  |
+{: .table .table-responsive-lg}
 
 **Edit 5/1** Updated 3 tbsp of Peppermint leaves is 10g not 84g.
 
@@ -98,8 +99,8 @@ So as a start, I made hibiscus tea via Mountain Rose Herbs [Hibiscus High](https
 
 {% include image.html
             img="/images/2019-4-29-Cold-Brew-Episode-1/hibiscus-setup.jpg"
-            title="Hibiscus Ingredients"
-            caption="" %}
+            alt="Hibiscus Ingredients"
+            caption="Hibiscus High and the cold brew maker" %}
 
 Again the fancy glass pitcher is exactly [Ovalware's Cold Brewing Glass Carafe 1.5L](https://www.ovalware.com/products/coldbrew?variant=12978540249143) pretty highly reviewed on Amazon too.
 The stainless steel filter is removable as soon in the image.
@@ -108,21 +109,21 @@ As far as filtered water goes, I have big boy [zerowater dispenser](https://www.
 
 {% include image.html
             img="/images/2019-4-29-Cold-Brew-Episode-1/pitcher.jpg"
-            title="Pitcher"
-            caption="" %}
+            alt="Pitcher"
+            caption="The Zerowater Pitcher" %}
 
 After measuring and adding all of the ingredients you will see that the water begins to be tinted red immediately after a shake.  Its already beginning.
 
 {% include image.html
             img="/images/2019-4-29-Cold-Brew-Episode-1/hibiscus-start.jpg"
-            title="Hibiscus Start"
-            caption="" %}
+            alt="Hibiscus Start"
+            caption="Start of cold brew" %}
 
 Fast forward 9 hours and here it is.
 
 {% include image.html
             img="/images/2019-4-29-Cold-Brew-Episode-1/hibiscus-now.jpg"
-            title="Hibiscus After 9 hours"
+            alt="Hibiscus After 9 hours"
             caption="That red tint!" %}
 
 I think I'll leave it overnight to do its thing.
@@ -133,28 +134,28 @@ The [Peppermint Leaves](https://www.mountainroseherbs.com/products/peppermint-le
 
 {% include image.html
             img="/images/2019-4-29-Cold-Brew-Episode-1/cacao-setup.jpg"
-            title="Cacao Ingredients"
-            caption="" %}
+            alt="Cacao Ingredients"
+            caption="The Cacao Nibs and cold brew maker" %}
 
 Again after measuring and adding all of the ingredients you will see that the water begins to be tinted slight brown, I'm not sure if its from the mint or cacao nibs, interesting...
 
 {% include image.html
             img="/images/2019-4-29-Cold-Brew-Episode-1/cacao-start.jpg"
-            title="Cacao Start"
-            caption="" %}
+            alt="Cacao Start"
+            caption="Start of cold brew" %}
 
 Fast forward 9 hours and here it is.
 
 {% include image.html
             img="/images/2019-4-29-Cold-Brew-Episode-1/cacao-now.jpg"
-            title="Cacao After 9 hours"
+            alt="Cacao After 9 hours"
             caption="You probably can't see it but there's some cloudiness at the bottom, heh." %}
 
 ## Results
 
 {% include image.html
             img="/images/2019-4-29-Cold-Brew-Episode-1/finished.jpg"
-            title="Finished products"
+            alt="Finished products"
             caption="Finished products after about a day in the fridge." %}
 
 ### Hibiscus High

@@ -5,6 +5,13 @@ description: Yup I remember my 10th/11th grade Lit teacher yelling at me to put 
 icon: fas fa-calculator icon-text-gray icon-bg-pale-blue
 categories: coding
 tags: memory-lane-episodes
+gallery: {
+  "images": [
+    {"src": "/images/2019-5-14-Scroll-Down-Memory-Lane-Ti-Calculator-Episode-1/title.gif", alt: "Yahtz Title", caption: "Already I'm cringing..."},
+    {"src": "/images/2019-5-14-Scroll-Down-Memory-Lane-Ti-Calculator-Episode-1/roll.gif", alt: "Rolling Dice", caption: "Yeah grayscale on an LCD that only displays black and white."},
+    {"src": "/images/2019-5-14-Scroll-Down-Memory-Lane-Ti-Calculator-Episode-1/high_scores.gif", alt: "High Scores", caption: "I couldn't even beat my own high score when playing on an emulator."},
+  ]
+}
 ---
 
 Yeah in this series of posts Brandon reviews past projects, the first post in this series is one of my first works. A Ti-86 game by the name of Yahtz.
@@ -85,21 +92,7 @@ is generated if your roll ends up being the bonus combination then you score a l
 Now I did two versions of the game, one without the fancy assembly code and another with it. Here are some screenshots taken from
 [ticalc.org](https://www.ticalc.org/archives/files/fileinfo/356/35653.html) that I did all those years ago. Its quite amazing ticalc.org is still a thing.
 
-{% include image.html
-            img="/images/2019-5-14-Scroll-Down-Memory-Lane-Ti-Calculator-Episode-1/title.gif"
-            title="Yahtz"
-            caption="Already I'm cringing..."%}
-
-{% include image.html
-            img="/images/2019-5-14-Scroll-Down-Memory-Lane-Ti-Calculator-Episode-1/roll.gif"
-            title="Rolling dice"
-            caption="Yeah grayscale on an LCD that only displays black and white."%}
-
-{% include image.html
-            img="/images/2019-5-14-Scroll-Down-Memory-Lane-Ti-Calculator-Episode-1/high_scores.gif"
-            title="High scores"
-            caption="I couldn't even beat my own high score when playing on an emulator."%}
-
+{% include image-gallery.html gallery=page.gallery col="col-xs-12 col-md-4" %}
 
 So yeah I'd provide more details on how the scoring works, but I can't figure out how to open 86P files.  You should be able to run it on a Ti-Calc emulator
 by just grabbing the 86G file onto the program.

@@ -102,8 +102,6 @@ And past round 99 after the ending you have the choice to continue playing, but 
             src="https://www.youtube.com/embed/dSxUWiiCvCQ"
             caption="Nothing too exciting, Toad blows up Wario's Castle, sadly he just got that in Wario Land: Super Mario Land 3. It would take 9 years for Wario to repair his castle before the events of Wario World..." %}
 
-
-
 ## 2 Player / VS CPU
 The game was also adapted to multiplayer, the rules are the same, except at the end of the VS CPU mode you go up against Wario himself. The characters are not
 of the Mario universe ranging from a Witch, to a Knight, to a March Hare lookalike from Alice in Wonderland. Its weird that they came up with these weird cast

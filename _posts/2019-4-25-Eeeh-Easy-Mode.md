@@ -11,7 +11,8 @@ The week in easy mode continues! I already feel like I need another vacation...
 {% include image.html
             img="https://i.kym-cdn.com/photos/images/newsfeed/000/102/653/easymode.png"
             title="Eeeh? Easy Mode?"
-            caption="" %}
+            alt="Eeeh? Easy Mode?"
+            caption="Yeah I don't play Touhou games, but I'd probably play them in Easy Mode." %}
 
 Yup easy mode where, I loosen the restrictions on diet, yet still incorporating healthy food and exercise of course. The goal is to maintain the current weight.
 Unfortunately can't do easy mode for other stuff in life... can only meet up with people and work just keeps coming in.
@@ -41,7 +42,7 @@ Enter Brandon right at 6:30, Will the founder of Swyft Fitness was the instructo
 
 {% include image.html
             img="/images/2019-4-25-Eeeh-Easy-Mode/swyft.jpg"
-            title="Studio"
+            alt="Studio"
             caption="The studio right in Downtown Sunnyvale" %}
 
 Got some nice schwag for making my way out there, nice needed a new container, as all of the ones I have are too big! 64 oz and 2 1 gallon jugs. Nothing really portable here.
@@ -50,10 +51,8 @@ Yeah was the only person for that session, but they just opened I can see more s
 
 {% include image.html
             img="/images/2019-4-25-Eeeh-Easy-Mode/schwag.jpg"
-            title="bottle"
-            style="width: 60%"
+            alt="bottle"
             caption="I look forward to going out to a future class and forgetting this at home!" %}
-
 
 So yeah blahblahblah workout. Couldn't lift my arms afterward! And hips were already recovering from Tuesday. Dang it Will! Got me again!
 
@@ -61,8 +60,8 @@ After the workout was complete, got a pic.
 
 {% include image.html
             img="/images/2019-4-25-Eeeh-Easy-Mode/will.jpg"
-            title="Will"
-            caption="Yup, there's me, I hate taking pics of myself, but well." %}
+            alt="Will"
+            caption="Yup, there's me and Will, I hate taking pics of myself, but well." %}
 
 Then told him about the blog cue `social-anxiety` "Oh and Hahaha I may have mentioned you in a previous post saying Dangit Will",
 because I'm just now realizing that these classes are 30 minutes each rather than an hour long, so after a re-evaluation it shouldn't be too bad! Just do the normal Tuesday 1 hr session,
@@ -77,8 +76,8 @@ I probably ate the same amount the calories I just burned.
 
 {% include image.html
             img="https://thumbs.gfycat.com/OptimalThoseFoal-size_restricted.gif"
-            title="Welp"
-            caption="Really hope he didn't see me because it was really just down the street. :^)" %}
+            alt="Homer Hiding"
+            caption="Welp! Really hope he didn't see me because it was really just down the street. :^)" %}
 
 Also Will if you are reading this, after this point if you see me do this, you got my permission to sprint over and tackle me or something! Just writing this will prevent me from doing so.
 
@@ -103,7 +102,7 @@ Anywho yeah made it extremely clear to waitress over at Nom Burger exactly what 
 
 {% include image.html
             img="/images/2019-4-25-Eeeh-Easy-Mode/nomnomnom.jpg"
-            title="Nomnomnom"
+            alt="Nomnomnom"
             caption="The good stuff! The best crispy fries, I believe they add some flour or starch or something, it really crisps up the fries." %}
 
 Then I got passion fruit juice over at [Bambu](https://www.drinkbambu.com/), another great establishment, glad I beat the rush because 10 or so people just rushed in. I like that you can order a drink with no ice for $1 extra.
@@ -120,7 +119,8 @@ These periods can be pretty stressful, and adding onto that the game generally l
 Anywho the music fits the situation perfectly.
 
 {% include video.html
-            src="https://www.youtube.com/embed/t7ONBYne4qw" %}
+            src="https://www.youtube.com/embed/t7ONBYne4qw"
+            caption="Gotta go fast" %}
 
 Did I mention it was cold, I should of had the foresight to pack my only good pair of sweatpants and just switched into them.
 
@@ -132,7 +132,8 @@ As long as I don't go for Bags and Bags of Doritos, Slurpees, Cake, Ice Cream, a
 IDK I usually find the perfect things to say after the fact long after the conversation is over.
 
 {% include video.html
-            src="https://www.youtube.com/embed/Jrxl3Op4rsI" %}
+            src="https://www.youtube.com/embed/Jrxl3Op4rsI"
+            caption="Everyone getting roped into this." %}
 
 Maybe one day I'll just link to it on social media, or maybe for fun I'll wait and see how long it takes for people to discover it, but then again I don't believe I'm ready for a world where people know the `trigger word` system exists.
 

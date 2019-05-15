@@ -10,7 +10,8 @@ I don't know how I will organize this blog in the future or what direction I wil
 Anywho I just felt like writing and I'm sure I'm going to regret this.
 
 {% include video.html
-            src="https://www.youtube.com/embed/GovANO8uCus" %}
+            src="https://www.youtube.com/embed/GovANO8uCus"
+            caption="Amorphous blob go!"%}
 
 ## Sooo
 Ehh its just a feeling of ennui; however, I do feel that the pandora's box inside my mind opened recently, unleashing a slew of old bad memories replaying on a trigger.
@@ -20,7 +21,8 @@ I've been off dieting for 13 days now, I resigned myself to take one more week o
 
 {% include image.html
             img="/images/2019-4-23-Im-Only-Human/yikes.png"
-            title="Yikes"
+            title="Yikes!"
+            alt="Google sheets"
             caption="Duplicate sheets galore now, I usually just move the data into another spreadsheet in a very organized manner. Yeah I probably should be using some app..." %}
 
 Prior to this it has been pretty mechanical with tracking anything that I eat or drink and daily weighings the moment after I wake up and do morning routine, adjust food intake weekly based on the data.
@@ -90,6 +92,7 @@ The most accurate depiction of all this is the "Enemy Platform" from New Super M
 
 {% include image.html
             img="https://www.mariowiki.com/images/thumb/7/7b/5-4nsmbwii.png/800px-5-4nsmbwii.png"
+            alt="Enemy Platform New Super Mario Bros."
             title="Enemy Platform"
             caption="Its rainin' goombas in my head!" %}
 
