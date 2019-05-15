@@ -3,7 +3,7 @@ layout: post
 title: Scroll Down Memory Lane Episode 1 - Ti Calculator Games
 description: Yup I remember my 10th/11th grade Lit teacher yelling at me to put my calculator away :^)
 icon: fas fa-calculator icon-text-gray icon-bg-pale-blue
-categories: programming
+categories: coding
 tags: memory-lane-episodes
 ---
 
